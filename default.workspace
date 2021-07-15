@@ -3,5 +3,6 @@
 	<Workspace title="Workspace">
 		<Project filename="ReverseCharacters/ReverseCharacters.cbp" />
 		<Project filename="SumAndDifferenceOfTwoNumbers/SumAndDifferenceOfTwoNumbers.cbp" />
+		<Project filename="PrintingPatternUsingLoops/PrintingPatternUsingLoops.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
