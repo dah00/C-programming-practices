@@ -12,6 +12,7 @@ void push(Node **head, int val);
 int removeFirst(Node **head);
 int removeLast(Node *head);
 int remove_by_index(Node **head, int n);
+int remove_by_value(Node **head, int val);
 
 int main()
 {
@@ -146,4 +147,29 @@ int remove_by_index(Node **head, int n){
     free(tempNode);
     return value;
 
+}
+
+int remove_by_value(Node **head, int val){
+    Node *previous, *current;
+
+    if (*head == NULL) {
+        return -1;
+    }
+
+    if ((*head)->val == val) {
+        return removeFirst(head);
+    }
+
+    previous = current = (*head)->next;
+    while (current) {
+        if (current->val == val) {
+            previous->next = current->next;
+            free(current);
+            return val;
+        }
+
+        previous = current;
+        current  = current->next;
+    }
+    return -1;
 }
