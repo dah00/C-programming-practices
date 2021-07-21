@@ -45,7 +45,7 @@ int main()
 
     //remove_by_index(&head, 3);
 
-    printf("%d ", remove_by_index(&head, 3));
+    printf("%d \n", remove_by_index(&head, 2));
 
     print_list(head);
 
@@ -134,16 +134,16 @@ int remove_by_index(Node **head, int n){
         removeFirst(head);
     }
 
-    Node *previous = head;
     for(int i=0; i<n-1; i++){
-        if(current->next == NULL)
+        if(current->next == NULL){
             return -1;
+        }
         current = current->next;
-        previous = previous->next;
     }
-    value = current->val;
-    previous->next = current->next;
-    free(current);
+    Node *tempNode = current->next;
+    value = tempNode->val;
+    current->next = tempNode->next;
+    free(tempNode);
     return value;
 
 }
