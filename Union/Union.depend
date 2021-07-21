@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626899924 source:d:\bossy\github repository\c-programming-practices\union\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
