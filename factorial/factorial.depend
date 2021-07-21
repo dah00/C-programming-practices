@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1626830799 source:d:\bossy\github repository\c-programming-practices\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+
