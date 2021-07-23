@@ -4,5 +4,6 @@
 		<Project filename="ReverseCharacters/ReverseCharacters.cbp" />
 		<Project filename="SumAndDifferenceOfTwoNumbers/SumAndDifferenceOfTwoNumbers.cbp" />
 		<Project filename="PrintingPatternUsingLoops/PrintingPatternUsingLoops.cbp" />
+		<Project filename="SmallTrianglesLargeTriangles/SmallTrianglesLargeTriangles.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

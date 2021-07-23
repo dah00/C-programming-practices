@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1627005931 source:d:\bossy\github repository\c-programming-practices\smalltriangleslargetriangles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
